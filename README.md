@@ -1,5 +1,5 @@
 **Snyk Instructions**
-1. Fork this repo to your own Github account
+1. Fork this repo to your own Github account.
 2. Import your fork into Snyk via Git
 3. Clone your fork to your local system and ``cd`` yourself to that directory in terminal/command prompt
 4. Download and authenticate Snyk CLI if you haven't already (e.g. install NPM, then run ``npm i snyk -g`` followed by ``snyk auth``)
@@ -9,7 +9,7 @@
 8. Run ``snyk container test juice-shop --file=Dockerfile`` to scan container image and confirm the scan completes successfully
 9. Run ``snyk container monitor juice-shop --file=Dockerfile`` to monitor container dependencies in Snyk
 
-**IMPORTANT NOTE**: Running ``npm install`` on your local system is **NOT needed** and likely won't work if you're on the newest version of Node (see Node compatibility chart below)
+**IMPORTANT NOTE**: Running ``npm install`` on your local system is **NOT needed** and likely won't work if you're on the newest version of Node (see Node compatibility chart below).
 
 **Original readme**
 
